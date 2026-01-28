@@ -125,22 +125,6 @@ h6 {
   padding: 0 var(--espaciado-md);
 }
 
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
-
-.text-center {
-  text-align: center;
-}
-
 .section-title {
   font-size: var(--texto-2xl);
   color: var(--color-primario);
@@ -156,12 +140,12 @@ h6 {
 .hero {
   position: relative;
   height: 300px;
-  /*background: linear-gradient(135deg, var(--color-primario) 0%, var(--color-primario-light) 100%);*/
+  /* background: linear-gradient(135deg, var(--color-primario) 0%, var(--color-primario-light) 100%); */
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  /*color: var(--color-bg-primario);*/
+  /* color: var(--color-bg-primario); */
   overflow: hidden;
 }
 

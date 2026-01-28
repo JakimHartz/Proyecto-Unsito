@@ -45,56 +45,6 @@ h3 {
     padding: 0 20px;
 }
 
-/* ----- HEADER ROJO INSTITUCIONAL ----- */
-.top-bar {
-    background: var(--color-unsis-medium);
-    color: white;
-    padding: 10px 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 14px;
-}
-
-.top-bar .logo {
-    height: 55px;
-    width: auto;
-    object-fit: contain;
-    background: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
-.top-bar .redes-top {
-    display: flex;
-    gap: 15px;
-}
-
-/* ----- MENu PRINCIPAL ----- */
-.menu-principal {
-    background: var(--color-unsis-light);
-    color: white;
-    padding: 15px 40px;
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-    font-size: 15px;
-    font-weight: 500;
-}
-
-.menu-principal a {
-    color: white;
-    text-decoration: none;
-    padding: 5px 0;
-    transition: color 0.3s;
-}
-
-.menu-principal a:hover {
-    color: #ffcc00;
-    /* Color de acento */
-    text-decoration: none;
-}
-
 /* ----- HERO (IMAGEN PRINCIPAL) ----- */
 .hero {
     overflow: hidden;
@@ -222,39 +172,6 @@ h3 {
     margin-bottom: 15px;
 }
 
-/* -------------------------------------
-   FOOTER (Pie de Página)
-   ------------------------------------- */
-
-.footer-principal {
-    background: var(--color-unsis-dark);
-    color: white;
-    padding: 40px 0;
-    margin-top: 50px;
-    font-size: 14px;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-around;
-    gap: 30px;
-    text-align: left;
-}
-
-.footer-principal p {
-    margin: 5px 0;
-}
-
-.footer-principal a {
-    color: #ffcc00;
-    /* Color de acento para enlaces */
-    text-decoration: none;
-}
-
-.footer-principal a:hover {
-    text-decoration: underline;
-}
-
 /* ----- RESPONSIVE (Ajustes para Tabletas y Móviles) ----- */
 
 /* Para tabletas (992px y menos) */
@@ -280,40 +197,8 @@ h3 {
 
 /* Para móviles (768px y menos) */
 @media (max-width: 768px) {
-    .menu-principal {
-        /* El menú pasa a ser vertical */
-        flex-direction: column;
-        gap: 15px;
-        padding: 20px;
-    }
-
-    .top-bar {
-        /* El header pasa a ser vertical */
-        flex-direction: column;
-        padding: 15px;
-    }
-
-    .top-bar .redes-top {
-        margin-top: 10px;
-    }
-
-    .footer-content {
-        /* El footer pasa a ser vertical y centrado */
-        flex-direction: column;
-        text-align: center;
-    }
-
     .grid-noticias {
         /* La cuadrícula de noticias pasa a ser una sola columna */
         grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 768px) {
-
-    .barra-principal,
-    .navbar,
-    header {
-        display: none;
     }
 }
