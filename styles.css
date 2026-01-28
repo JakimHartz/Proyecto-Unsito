@@ -426,12 +426,13 @@ h6 {
   top: 0;
   z-index: 1000;
   box-shadow: var(--shadow-md);
+  /* padding: var(--espaciado-sm); */
 }
 
 .header__container {
   display: flex;
   flex-direction: column;
-  padding: var(--espaciado-md);
+  padding: var(--espaciado-sm);
 }
 
 .header__top {
@@ -443,7 +444,7 @@ h6 {
 
 .header__logo {
   font-family: var(--fuente-titulo);
-  font-size: var(--text-2xl);
+  font-size: var(--texto-2xl);
   font-weight: bold;
   color: var(--color-bg-primario);
   letter-spacing: 2px;
@@ -578,7 +579,7 @@ h6 {
   }
 
   .hero__title {
-    font-size: var(--text-4xl);
+    font-size: var(--texto-4xl);
   }
 
   .cards-grid {
